@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\ajaxcrud;
+namespace fullflash\ajaxcrud;
 
 use Yii;
 use yii\base\Application;
@@ -19,10 +19,10 @@ class Bootstrap implements BootstrapInterface {
      */
     public function bootstrap($app) {
         Yii::setAlias("@ajaxcrud", __DIR__);
-        Yii::setAlias("@johnitvn/ajaxcrud", __DIR__);
+        Yii::setAlias("@fullflash/ajaxcrud", __DIR__);
         if ($app->hasModule('gii')) {
             if (!isset($app->getModule('gii')->generators['ajaxcrud'])) {
-                $app->getModule('gii')->generators['ajaxcrud'] = 'johnitvn\ajaxcrud\generators\Generator';
+                $app->getModule('gii')->generators['ajaxcrud'] = 'fullflash\ajaxcrud\generators\Generator';
             }
         }
     }
