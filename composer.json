@@ -6,6 +6,6 @@
         },
     ],
     "require": {
-        "johnitvn/yii2-ajaxcrud": "dev-bugfixes as 2.0.0"
+        "fullflash/yii2-ajaxcrud": "dev-master"
     }
 }
