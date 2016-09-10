@@ -4,14 +4,15 @@
      	"php": "^5.3.3 || ^7.0",
         "yiisoft/yii2": "*",
         "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-bootstrap": "*"
+        "yiisoft/yii2-bootstrap": "*",
+        "kartik-v/yii2-grid": "3.0.4"
     },
     "autoload": {
         "psr-4": {
-            "johnitvn\\ajaxcrud\\": "src/"
+            "fullflash\\ajaxcrud\\": "src/"
         }
     },
     "extra": {
-        "bootstrap": "johnitvn\\ajaxcrud\\Bootstrap"
+        "bootstrap": "fullflash\\ajaxcrud\\Bootstrap"
     }
 }
