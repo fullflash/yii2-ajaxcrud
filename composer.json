@@ -4,8 +4,7 @@
      	"php": "^5.3.3 || ^7.0",
         "yiisoft/yii2": "*",
         "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-bootstrap": "*",
-	 "kartik-v/yii2-grid": "^3.0.4",
+        "yiisoft/yii2-bootstrap": "*"
     },
     "autoload": {
         "psr-4": {
