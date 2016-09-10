@@ -6,6 +6,6 @@
         },
     ],
     "require": {
-        "johnitvn/yii2-ajaxcrud": "*"
+        "johnitvn/yii2-ajaxcrud": "dev-bugfixes"
     }
 }
