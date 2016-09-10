@@ -1,13 +1,14 @@
+
 {
     "name": "fullflash/yii2-ajaxcrud",
+    "description": "Sample project",
+
+   
     "repositories":
 	[
 	    {
 	        "type": "vcs",
-	        "url": "http://github.com/fullflash/yii2-ajaxcrud"
+	        "url": "https://github.com/fullflash/yii2-ajaxcrud.git"
 	    }
-	],
-	"require": {
-	    "johnitvn/yii2-ajaxcrud": "dev-my-bugfix"
-	}
+	]
 }
