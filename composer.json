@@ -8,12 +8,12 @@
         {
             "name": "John Martin",
             "email": "john.itvn@gmail.com",
-            "homepage": "https://github.com/johnitvn?tab=repositories"
+            "homepage": "https://github.com/fullflash?tab=repositories"
         }
     ],
     "support": {
-        "issues": "https://github.com/johnitvn/yii2-ajaxcrud/issues?state=open",
-        "source": "https://github.com/johnitvn/yii2-ajaxcrud"
+        "issues": "https://github.com/fullflash/yii2-ajaxcrud/issues?state=open",
+        "source": "https://github.com/fullflash/yii2-ajaxcrud"
     },
     "require": {
         "yiisoft/yii2": "*",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "johnitvn\\ajaxcrud\\": "src/"
+            "fullflash\\ajaxcrud\\": "src/"
         }
     },
     "extra": {
