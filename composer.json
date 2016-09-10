@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "fullflash\\ajaxcrud\\": "src/"
+            "johnitvn\\ajaxcrud\\": "src/"
         }
     },
     "extra": {
